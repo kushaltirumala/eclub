@@ -1,0 +1,29 @@
+a {
+
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+a:hover
+{
+    color:white;
+}
+
+.button {
+  margin-top: 100px;
+  text-align: center;
+}
+.element {
+  color: #ffffff;
+  text-decoration: none;
+  padding:20px 40px 20px 40px;
+  margin:0px;
+  border: white solid 2px;
+  font-size:20px;
+}
+
+.element:hover {
+  background-color: white;
+  color:white;
+}
