@@ -7,17 +7,19 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<script src="js/main.js"></script>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="vegas/vegas.js"></script>
+		<link rel="stylesheet" href="vegas/vegas.css">
+
 	</head>
 	<body>
-
-			<header id="header">
-				<h1 style="text-align:center;">LHS Entrepreneurship Club</h1>
-				<p style="text-align:center;">Dream, Create, Pursue.</p>
+		<header id="header" style="margin-bottom:30px;">
+				<h1 style="text-align:center; font-family:'Avenir';font-size:35px; color:white; font-weight:400;">LHS Entrepreneurship Club</h1>
+				<p style="text-align:center; font-family:'Avenir'; font-size:20px; margin-top:50px;">Dream, Create, Pursue.</p>
 			</header>
 
 			<div class = "button">
-        		<a class="element" href="http://goo.gl/forms/ypxA2DZ9pi">Sign up</a>
+        		<a class="element" href="https://docs.google.com/forms/d/1JDWk864kIsYWfxssQ04rpj3ic7OSJGr3mblCHTUympo/viewform">Sign up</a>
       		</div>
 
 			<footer id="footer">
@@ -32,4 +34,15 @@
 				</ul>
 			</footer>
 	</body>
+	<script>
+		$(function() {
+    		$('body').vegas({
+        		slides: [
+            	{ src: 'images/bg01.jpg' },
+            	{ src: 'images/bg02.jpg' },
+            	{ src: 'images/bg03.jpg' }
+        	]
+    	});
+});
+	</script
 </html>
