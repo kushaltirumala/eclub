@@ -240,7 +240,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Courier New", Courier, monospace;
+		font-family: 'Raleway', 'Hind', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		letter-spacing: -0.01em;
