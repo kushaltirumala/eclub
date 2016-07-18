@@ -1,2 +1,2 @@
 # E-club
-LHS Entrepreneurship
+
